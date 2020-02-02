@@ -144,7 +144,7 @@ int main(){
     show(list);
 
     cout<<"czy jest Marysia? "<<exists(list,"Marysia")<<endl;
-    //delete nie dziala gdy chcemy usunac pierwszy element!!
+
     delete_przedszkolaczka(list, "Marysia");
     show(list);
     cout<<"czy jest Marysia? "<<exists(list,"Marysia")<<endl;
